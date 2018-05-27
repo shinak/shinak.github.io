@@ -1,0 +1,167 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+
+div{
+	margin: 0;
+	padding: 0;
+}
+
+#all{
+	margin: auto;
+	width: 80%;
+}
+
+#header{
+	width: 100%;
+	height: 25px;
+	background-image: url(../img/header.jpg);
+}
+
+#navfirst{
+	width: 100%;
+	height: 40px;
+	background-color: rgb(242,242,242);
+	
+}
+
+.navs{
+	display: block;
+	float: left;
+	margin: auto;
+	width: 11%;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	text-decoration: none;
+	font-family: 仿宋;
+	font-size: 20px;
+	color: rgb(88,87,87);
+}
+
+.navs:hover{
+	background: rgb(222,222,222);
+}
+
+#view{
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	height: 250px;
+	border: 2px solid orangered;
+}
+
+#photo{
+	height: 245px;
+	background-image: url(../img/鹅-1.jpg);
+}
+
+#details{
+	height: 300px;
+	
+}
+
+#d_left{
+	float: left;
+	margin-top: 5px;
+	padding: 5px;
+	width: 33%;
+	height: 275px;
+	border: 2px solid orangered;
+}
+
+#d_left img{
+	width: 100%;
+	height: 274px;
+}
+
+#d_rightfrist{
+	float: right;
+	margin-top: 5px;
+	margin-bottom: 8px;
+	width: 65%;
+	height: 45px;
+	font-family: "微软雅黑";
+	text-align: center;
+	line-height: 45px;
+	border: 2px solid orangered;
+}
+
+#d_rightfrist span{
+	color: red;
+	font-size: 20px;
+}
+
+#d_rightsecond{
+	float: right;
+	width: 65%;
+	height: 228px;
+	font-family: "微软雅黑";
+	border: 2px solid orangered;
+}
+
+#d_rightsecond h3{
+	text-align: center;
+}
+
+#navsecond{
+	margin-bottom: 5px;
+	width: 100%;
+	height: 25px;
+	border-radius: 25px;
+	background-color: orange;
+	font-family: "微软雅黑";
+	color: white;
+	line-height: 25px;
+}
+
+#navsecond span{
+	margin-left: 2%;
+}
+
+#main{
+	margin-bottom: 10px;
+	width: 100%;
+	height: 400px;
+}
+
+#photos{
+	float: left;
+	width: 34%;
+	height: 100%;
+}
+
+#photos img{
+	width: 100%;
+	height: 100%;
+}
+
+#introduce{
+	float: right;
+	width: 65%;
+	height: 100%;
+	font-family: "微软雅黑";
+}
+
+#introduce h4{
+	text-align: center;
+}
+
+#introduce .kun{
+	margin-left: 5px;
+	width: 220px;
+	height: 220px;
+}
+
+#horizon{
+	height: 3px;
+	background-color: orangered;
+}
+
+#foot{
+	height: 100px;
+	background-color: white;
+	text-align: center;
+	font-family: "微软雅黑";
+}
